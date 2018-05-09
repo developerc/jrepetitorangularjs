@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>JRepetitor</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="view1/view1.js"></script>
+  <script src="view2/view2.js"></script>
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Java Repetitor</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="http://localhost:8080/">Главная</a>
+        </li>
+        <li>
+          <a href="http://localhost:8000/view1/view1.html">Материалы</a>
+        </li>
+        <li>
+          <a href="http://localhost:8080/user">Личный кабинет</a>
+        </li>
+        <li>
+          <a href="http://localhost:8080/user">Help</a>
+        </li>
+
+      </ul>
+      </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+<br>
+<div class="container">
+
+  <!-- Marketing Icons Section -->
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header">
+        Мы научим вас программировать на JAVA
+      </h1>
+    </div>
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4><i class="fa fa-fw fa-check"></i> Java0</h4>
+        </div>
+        <div class="panel-body">
+          <p>Java для начинающих! Даже ребенок пройдет этот уровень!</p>
+          <a href="http://localhost:8080/user" class="btn btn-default">Узнать больше</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4><i class="fa fa-fw fa-gift"></i> Java1</h4>
+        </div>
+        <div class="panel-body">
+          <p>Если Вы прошли курс Java1, то сделали первый небольшой шаг для человека. Но это большой шаг для всего человечества!</p>
+          <a href="http://localhost:8080/user" class="btn btn-default">Узнать больше</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4><i class="fa fa-fw fa-compass"></i> Java2</h4>
+        </div>
+        <div class="panel-body">
+          <p>Закончил курс Java2, значит ты наполовину профессионал. Но умный наполовину значит наполовину глупец. Пройди курс Java WEB и выделись из толпы!</p>
+          <a href="http://localhost:8080/user" class="btn btn-default">Узнать больше</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /.row -->
+
+  <!-- Portfolio Section -->
+  <div class="row">
+    <div class="col-lg-12">
+      <h2 class="page-header">Счастливые обладатели сертификата Java программиста</h2>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <a href="portfolio-item.html">
+        <img class="img-responsive img-portfolio img-hover" src="https://lentachel.ru/netcat_files/Image/foto/2018/01/26/0b19a7c23e1beff25542511f41389921/nunn.jpg" alt="">
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <a href="portfolio-item.html">
+        <img class="img-responsive img-portfolio img-hover" src="http://lingvo-pro.ru/wp-content/uploads/2015/10/lingvo-pro7.jpg" alt="">
+      </a>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <a href="portfolio-item.html">
+        <img class="img-responsive img-portfolio img-hover" src="https://deti.mail.ru/pic/photolib/2014/08/31/Depositphotos_8705621_s.jpg" alt="">
+      </a>
+    </div>
+
+  </div>
+  <!-- /.row -->
+
+  <!-- Features Section -->
+  <div class="row">
+    <div class="col-lg-12">
+      <h2 class="page-header">График прохождения курса</h2>
+    </div>
+    <div class="col-md-6">
+      <p>Курс включает в себя:</p>
+      <ul>
+        <li><strong>Java Core</strong>
+        </li>
+        <li>Переменные и функции</li>
+        <li>Интерфейсы и классы</li>
+        <li>Регулярные выражения</li>
+        <li>Дженерики</li>
+        <li>Лямбда выражения</li>
+      </ul>
+      <p>Прохождение курса идет по плану!</p>
+    </div>
+    <div class="col-md-6">
+      <img class="img-responsive" src="https://static3.depositphotos.com/1007836/260/i/950/depositphotos_2608892-stock-photo-business-finance-chart-graph-diagram.jpg" alt="">
+    </div>
+  </div>
+  <hr>
+  <hr>
+
+  <footer>
+    <div class="row">
+      <div class="col-lg-12">
+        <p>Java Web © JRepetitor 2018</p>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+</body>
+</html>
